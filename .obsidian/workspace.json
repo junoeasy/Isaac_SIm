@@ -196,6 +196,11 @@
   },
   "active": "a4e65d7b53248f0c",
   "lastOpenFiles": [
+    "docs/stage-13-vla-rfm-evaluation-benchmarks.md",
+    "docs/stage-12-large-scale-training-infrastructure.md",
+    "docs/stage-11-sim-to-real-transfer.md",
+    "docs/stage-10-reinforcement-learning.md",
+    "docs/stage-09-visuomotor-transformer.md",
     "docs/stage-08-imitation-learning.md",
     "docs/stage-07-synthetic-data-generation.md",
     "docs/stage-06-domain-randomization.md",

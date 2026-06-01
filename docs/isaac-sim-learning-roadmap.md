@@ -44,6 +44,8 @@
 
 ## 2단계: MuJoCo 제어 기초
 
+상세 문서: [2단계: MuJoCo 제어 기초](stage-02-mujoco-control-basics.md)
+
 공부할 내용:
 
 - 시뮬레이터 루프: reset, step, observation, action, reward, done
@@ -64,6 +66,8 @@
 - observation, action, reward, success metric을 직접 정의할 수 있다.
 
 ## 3단계: Isaac Sim 기초
+
+상세 문서: [3단계: Isaac Sim 기초](stage-03-isaac-sim-basics.md)
 
 공부할 내용:
 
@@ -87,6 +91,8 @@
 
 ## 4단계: Isaac Lab
 
+상세 문서: [4단계: Isaac Lab](stage-04-isaac-lab.md)
+
 공부할 내용:
 
 - Isaac Lab 환경 구조
@@ -107,6 +113,8 @@
 - Isaac Lab task를 수정하고 정책을 학습시킬 수 있다.
 
 ## 5단계: 모바일 매니퓰레이터 환경 구축
+
+상세 문서: [5단계: 모바일 매니퓰레이터 환경 구축](stage-05-mobile-manipulator-environment.md)
 
 공부할 내용:
 
@@ -129,6 +137,8 @@
 
 ## 6단계: 도메인 랜덤화
 
+상세 문서: [6단계: 도메인 랜덤화](stage-06-domain-randomization.md)
+
 공부할 내용:
 
 - 시각 랜덤화: texture, 색상, 조명, 카메라 위치
@@ -148,6 +158,8 @@
 
 ## 7단계: 합성 데이터 생성
 
+상세 문서: [7단계: 합성 데이터 생성](stage-07-synthetic-data-generation.md)
+
 공부할 내용:
 
 - Isaac Sim Replicator
@@ -166,6 +178,8 @@
 - 시뮬레이션에서 재사용 가능한 학습 데이터를 자동 생성할 수 있다.
 
 ## 8단계: 모방학습
+
+상세 문서: [8단계: 모방학습](stage-08-imitation-learning.md)
 
 공부할 내용:
 
@@ -188,6 +202,8 @@
 
 ## 9단계: Visuomotor Transformer 정책
 
+상세 문서: [9단계: Visuomotor Transformer 정책](stage-09-visuomotor-transformer.md)
+
 공부할 내용:
 
 - image encoder: CNN, ViT
@@ -208,6 +224,8 @@
 - 시각 observation을 robot action으로 변환하는 정책을 만들 수 있다.
 
 ## 10단계: 강화학습
+
+상세 문서: [10단계: 강화학습](stage-10-reinforcement-learning.md)
 
 공부할 내용:
 
@@ -230,6 +248,8 @@
 
 ## 11단계: Sim-to-Real 전이
 
+상세 문서: [11단계: Sim-to-Real 전이](stage-11-sim-to-real-transfer.md)
+
 공부할 내용:
 
 - calibration: camera intrinsic, extrinsic, robot base alignment
@@ -251,6 +271,8 @@
 
 ## 12단계: 대규모 학습 인프라
 
+상세 문서: [12단계: 대규모 학습 인프라](stage-12-large-scale-training-infrastructure.md)
+
 공부할 내용:
 
 - multi-GPU training
@@ -271,6 +293,8 @@
 - 단일 실험을 반복 가능한 학습 파이프라인으로 확장할 수 있다.
 
 ## 13단계: VLA/RFM 평가 벤치마크
+
+상세 문서: [13단계: VLA/RFM 평가 벤치마크](stage-13-vla-rfm-evaluation-benchmarks.md)
 
 공부할 내용:
 
