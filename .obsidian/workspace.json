@@ -194,8 +194,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "52c48bb0366242f5",
+  "active": "a4e65d7b53248f0c",
   "lastOpenFiles": [
+    "docs/stage-04-isaac-lab.md",
+    "docs/stage-03-isaac-sim-basics.md",
+    "docs/stage-02-mujoco-control-basics.md",
     "exercises/Matrix_cal.py",
     "tistory/01_Isaac sim  과 VLA 공부하기.md",
     "tistory/02_기초 준비.md",
