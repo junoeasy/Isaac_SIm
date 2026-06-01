@@ -1,6 +1,6 @@
 import numpy as np
-A=np.array([2,1],
-           [5,3])
+A = np.array([[2, 1],
+              [5, 3]])
 A_inv=np.linalg.inv(A)
 
 result_at=A @ A_inv
