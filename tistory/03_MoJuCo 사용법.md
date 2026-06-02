@@ -124,3 +124,6 @@ for step in range(10000):
 		break
 ```
 이 정도 이득값을 배치하면 1000번 step까지는 
+
+## 4. PPO
+PPO란, Proximal Policy Optimization으로 현재 policy를 조금씩만 안전하게 개선하는 강화학습 방법이다.
