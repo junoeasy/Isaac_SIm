@@ -1,8 +1,8 @@
 import gymnasium as gym
-
+import time
 # env에 gymnasium 새로 만들기 만든 버전은 InvertedPendulum 
 # 해당문서 https://gymnasium.farama.org/v1.1.1/environments/mujoco/inverted_pendulum/
-env = gym.make("InvertedPendulum-v5")
+env = gym.make("InvertedPendulum-v5",render_mode="human")
 
 
 # obs = observation 관찰 값
@@ -37,7 +37,8 @@ for step in range(100):
 	# 해당 값 출력
 	# terminated : (규칙에 의한 종료)막대가 기준치 이상으로 기울어졌을 때 (현재는 |angle|<0.2)
 	# truncated : (시간에 의한 종료) 외부 제약 조건으로 인한 종료(step에 의해 종료)
-	
+    time.sleep(0.1)
+
     if terminated or truncated:
         obs, info = env.reset()
         #//초기화

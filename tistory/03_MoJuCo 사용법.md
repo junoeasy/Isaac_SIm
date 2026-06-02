@@ -89,3 +89,5 @@ env = gym.make("InvertedPendulum-v5", render_mode="human")
 ```
 다음과 같이 수정해주면 이미지가 나오게 된다.
 ![[Pasted image 20260602103519.png]]
+시뮬 속도가 빠르기 때문에 코드 안에 import time과 for문 안에 time.sleep(0.1)정도를 추가해준다.
+
