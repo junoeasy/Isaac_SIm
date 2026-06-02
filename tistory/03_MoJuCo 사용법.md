@@ -99,4 +99,6 @@ action은 1차원 배열 1개이므로 action=[1.0] 으로 수정해준다.
 다음과 같이 오른쪽 방향으로만 카트가 이동하는 것을 볼 수 있다.
 
 ### 수동 policy
-Policy란 observat
+Policy란 observation을 보고 action을 정하는 규칙이다.
+기존 action은 random으로 지정하거나, 직접 제어했다. 
+이번에는 policy를 직접 정해서 진행해보자
