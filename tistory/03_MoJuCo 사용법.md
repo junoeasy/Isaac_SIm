@@ -13,9 +13,15 @@ pip install "gymnasium[mujoco]"
 ```py
 import gymnasium as gym
 
+# env에 gymnasium 새로 만들기 만든 버전은 InvertedPendulum 
+# 해당문서 https://gymnasium.farama.org/v1.1.1/environments/mujoco/inverted_pendulum/
 env = gym.make("InvertedPendulum-v5")
 
+
+# obs = observation 관찰 값
+# info = obs값 외 추가 정보
 obs, info = env.reset()
+
 print("obs:", obs)
 print("obs shape:", obs.shape)
 print("action space:", env.action_space)
