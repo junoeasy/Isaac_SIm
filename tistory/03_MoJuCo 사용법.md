@@ -95,3 +95,5 @@ env = gym.make("InvertedPendulum-v5", render_mode="human")
 
 현재 action은 -3.0에서 3.0중에 random값인데 이것을 1.0으로 고정해보자.
 action은 1차원 배열 1개이므로 action=[1.0] 으로 수정해준다.
+![[Mojuco8.gif]]
+다음과 같이 오른쪽 방향으로만 카트가 이동하는 것을 볼 수 있다.
