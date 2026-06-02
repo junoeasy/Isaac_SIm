@@ -22,7 +22,7 @@ for step in range(10000):
 
     obs, reward, terminated, truncated, info = env.step(action)
 
-    print(step, reward, terminated, truncated,info,obs[0],obs[1],obs[2],obs[3])
+    print(step, reward, terminated, truncated,obs[0],obs[1],obs[2],obs[3])
     time.sleep(0.1)
     if terminated or truncated:
         obs, info = env.reset()

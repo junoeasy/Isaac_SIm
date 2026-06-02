@@ -77,3 +77,15 @@ env.close()
 4번 step을 보면 obs[1] 의 값이 -0.2286... 이고 이 값의 절대값이 0.2보다 크기 때문에  terminated가 True가 되고 reward가 0이 된다.
 
 reward를 같이 출력하면 
+![[Pasted image 20260602103326.png]]
+이런식으로 나온다.
+
+## 3.예제 수정 및 개선 및 GUI표시
+위의 기본 예제를 활용하여 action의 값을 random 대신 특정 값을 주는 것을 해보았다.
+추가로 GUI도 표시되게 추가하였다.
+처음에 있는 env를
+```
+env = gym.make("InvertedPendulum-v5", render_mode="human")
+```
+다음과 같이 수정해주면 이미지가 나오게 된다.
+![[Pasted image 20260602103519.png]]
