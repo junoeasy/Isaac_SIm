@@ -90,3 +90,8 @@ env = gym.make("InvertedPendulum-v5", render_mode="human")
 다음과 같이 수정해주면 이미지가 나오게 된다.
 ![[Mojuco6.gif]]
 시뮬 속도가 빠르기 때문에 코드 안에 import time과 for문 안에 time.sleep(0.1)정도를 추가해준다.
+![[Mojuco7.gif]]
+
+
+현재 action은 -3.0에서 3.0중에 random값인데 이것을 1.0으로 고정해보자.
+action은 1차원 배열 1개이므로 action=[1.0] 으로 수정해준다.

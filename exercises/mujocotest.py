@@ -27,7 +27,7 @@ print("action space:", env.action_space)
 
 #100번 반복하면서
 for step in range(100):
-    action = env.action_space.sample()
+    action = [1.0]
     # action값을 범위 내에서 random으로 하기
     
     obs, reward, terminated, truncated, info = env.step(action)
