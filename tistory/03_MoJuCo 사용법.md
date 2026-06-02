@@ -27,9 +27,13 @@ print("obs:", obs)
 # obs[0] = 카트 위치(m)
 # obs[1] = 카트 위에 있는 막대의 각도(rad)
 # obs[2] = 카트의 선속도(m/s)
-# obs[3] =
+# obs[3] = 막대의 각속도(rad/s)
+
 print("obs shape:", obs.shape)
 # obs shape: (4,) 
+# 4, 인 이유 : 1차원 배열이라는 표현(numpy에서)
+# 1차원 배열에 4개의 값이 있다.
+
 print("action space:", env.action_space)
 
 for step in range(100):
