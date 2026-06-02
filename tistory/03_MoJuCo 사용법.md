@@ -127,3 +127,4 @@ for step in range(10000):
 
 ## 4. PPO
 PPO란, Proximal Policy Optimization으로 현재 policy를 조금씩만 안전하게 개선하는 강화학습 방법이다.
+이전 학습에서는 수동  policy를 직접 만들어 이득값을 직접 설정했었는데, PPO는 사람이 설정하는 것이 아니라 
