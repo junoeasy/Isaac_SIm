@@ -102,4 +102,5 @@ action은 1차원 배열 1개이므로 action=[1.0] 으로 수정해준다.
 Policy란 observation을 보고 action을 정하는 규칙이다.
 기존 action은 random으로 지정하거나, 직접 제어했다. 
 이번에는 policy를 직접 정해서 진행해보자
-기존 observation 4개를 각각 cart_pos, pole_angle, cart_vel, pole_ang_vel 이런식을
+기존 observation 4개를 각각 cart_pos, pole_angle, cart_vel, pole_ang_vel 이런식으로 설정한다.
+이후 PD 제어와 같이 cart_pos와 pole_angle에는 비례제어이득값, cart_vel과 pole_ang_vel에는 미분제어이득값을 곱해준다.
