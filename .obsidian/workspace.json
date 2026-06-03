@@ -196,6 +196,9 @@
   },
   "active": "a4e65d7b53248f0c",
   "lastOpenFiles": [
+    "MUJOCO_LOG.TXT",
+    "exercises/__pycache__/view_simple_mujoco.cpython-310.pyc",
+    "exercises/view_simple_mujoco.py",
     "exercises/__pycache__/run_simple_mujoco.cpython-310.pyc",
     "exercises/__pycache__",
     "exercises/run_simple_mujoco.py",
@@ -209,7 +212,6 @@
     "exercises/Mujoco_PPO.py",
     "exercises/Mujoco_PPO_Learn.py",
     "ppo_inverted_pendulum.zip",
-    "exercises/Mujoco_PPO",
     "Mojuco8.gif",
     "Mojuco7.gif",
     "Mojuco6.gif",
@@ -220,7 +222,6 @@
     "Pasted image 20260602103107.png",
     "Pasted image 20260602103047.png",
     "Pasted image 20260602102740.png",
-    "exercises/mujocotest.py",
     "tistory/02_기초 준비.md",
     "tistory/01_Isaac sim  과 VLA 공부하기.md",
     "README.md",
@@ -235,7 +236,6 @@
     "docs/stage-06-domain-randomization.md",
     "docs/stage-05-mobile-manipulator-environment.md",
     "docs/stage-04-isaac-lab.md",
-    "docs/stage-03-isaac-sim-basics.md",
-    "exercises/Matrix_cal.py"
+    "docs/stage-03-isaac-sim-basics.md"
   ]
 }
