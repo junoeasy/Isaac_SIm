@@ -28,3 +28,8 @@ cd ~/isaacsim
 ![[Pasted image 20260611163244.png]]
 
 
+Isaac sim 실행 화면
+![[Pasted image 20260611163403.png]]
+
+바닥생성하기 
+해당 화면에서 Create -> Physics -> Ground Plane
