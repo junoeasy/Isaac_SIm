@@ -38,3 +38,7 @@ Isaac sim 실행 화면
 박스 생성하기
 
 Create -> Mesh -> Cube
+![[Pasted image 20260611163820.png]]
+
+포커싱 이동 하는 법
+포커스 잡고 싶은 물체 누른 후 F 클릭
