@@ -64,9 +64,9 @@ def main() -> None:
     # 초기 속도를 준다. linear는 m/s, angular는 rad/s로 생각하면 된다.
     cube.set_velocities(linear_velocities=[0.8, 0.0, 0.0], angular_velocities=[0.0, 0.0, 2.0])
 
-    max_steps = 180 if not args.test else 20
+    max_steps = 1800 if not args.test else 20
     for step in range(max_steps):
-        if step == 60:
+        if step % 60 == 0:
             # 60 step 뒤 Cube를 다시 공중으로 옮기고 회전/이동 속도를 바꾼다.
             cube.set_world_poses(
                 positions=[[0.0, 0.0, 2.5]],
