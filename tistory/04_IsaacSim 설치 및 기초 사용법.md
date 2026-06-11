@@ -6,13 +6,25 @@ https://docs.isaacsim.omniverse.nvidia.com/6.0.0/installation/download.html
 [Linux Isaac Sim](https://downloads.isaacsim.nvidia.com/isaac-sim-standalone-6.0.0-linux-x86_64.zip)
 설치 이후 터미널에서
 ```
-# 폴더 만드
+# 폴더 만들기
 mkdir -p ~/isaacsim
+# 다운로드 폴더 가서
 cd ~/Downloads
+#isaac sim zip 파일을 isaacsim폴더에 압축해제
 unzip "isaac-sim-standalone-6.0.0-linux-x86_64.zip" -d ~/isaacsim
+#isaac sim 폴더로 이동
 cd ~/isaacsim
+#post install 실행
 ./post_install.sh
+#isaac sim 실행
 ./isaac-sim.sh
 ```
 
-설치 이후
+설치 이후 호환성 테스트
+```
+./isaac-sim.compatibility_check.sh
+```
+
+![[Pasted image 20260611163244.png]]
+
+
